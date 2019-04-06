@@ -1,0 +1,99 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="FFS_Data"
+  DTS:DTSID="{30E321CE-2F72-4724-A6AA-68F06A70C675}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="2057"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1250"
+      DTS:ConnectionString="C:\Users\luki2\Downloads\abalone.data">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="1"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Sex"
+          DTS:DTSID="{14A422D2-7C66-4DF7-BB3F-97B22C101DD1}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="8"
+          DTS:DataScale="4"
+          DTS:ObjectName="Length"
+          DTS:DTSID="{57C00F17-2B80-4DCD-A490-CD5C061E86AB}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="8"
+          DTS:DataScale="4"
+          DTS:ObjectName="Diameter"
+          DTS:DTSID="{F7F41C52-812B-43CB-932A-DF593ACAA7C8}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="8"
+          DTS:DataScale="4"
+          DTS:ObjectName="Height"
+          DTS:DTSID="{71E23CF1-D82C-4F12-B109-F1E9E2C59C27}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="8"
+          DTS:DataScale="4"
+          DTS:ObjectName="WholeWeight"
+          DTS:DTSID="{170DA5FF-88A4-463D-8FE6-032ED7E2ECAE}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="8"
+          DTS:DataScale="4"
+          DTS:ObjectName="ShuckedWeight"
+          DTS:DTSID="{46D5590C-396D-4FC2-88CB-4B91ACF06CA7}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="8"
+          DTS:DataScale="4"
+          DTS:ObjectName="VisceraWeight"
+          DTS:DTSID="{906F7B7B-51A5-4098-9256-85CEB640266F}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="8"
+          DTS:DataScale="4"
+          DTS:ObjectName="ShellWeight"
+          DTS:DTSID="{3E7A810D-FEAB-4869-A007-9441F6F670EF}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000A_"
+          DTS:DataType="16"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Rings"
+          DTS:DTSID="{4B1831DC-1022-442C-8893-FF4246F1ECF9}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
