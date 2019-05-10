@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[Abalone] (
+﻿CREATE TABLE [Project01].[Abalone] (
     [Sex]           VARCHAR (1)    NULL,
     [Length]        NUMERIC (8, 4) NULL,
     [Diameter]      NUMERIC (8, 4) NULL,

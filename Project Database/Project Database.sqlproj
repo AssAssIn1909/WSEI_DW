@@ -59,9 +59,24 @@
     <Folder Include="Properties" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
+    <Folder Include="Project02\" />
+    <Folder Include="Project02\Tables\" />
+    <Folder Include="Project01\" />
+    <Folder Include="Project01\Tables\" />
+    <Folder Include="Security\" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\Abalone.sql" />
-    <Build Include="dbo\Tables\Cars.sql" />
+    <Build Include="Project02\Tables\T02_WizyAgregacje.sql" />
+    <Build Include="Project02\Tables\T01_WizyWydane.sql" />
+    <Build Include="Project01\Tables\ImportHistory.sql" />
+    <Build Include="Project01\Tables\Cars.sql" />
+    <Build Include="Project01\Tables\Abalone.sql" />
+    <Build Include="Security\Project02.sql" />
+    <Build Include="Security\Project01.sql" />
+    <Build Include="Project02\Tables\T04_DerivedColumns.sql" />
+    <Build Include="Project02\Tables\T03_NOSG.sql" />
+    <Build Include="Project02\Tables\T03_MOSG.sql" />
+    <Build Include="Project02\Tables\T05_MultiB.sql" />
+    <Build Include="Project02\Tables\T05_MultiA.sql" />
   </ItemGroup>
 </Project>

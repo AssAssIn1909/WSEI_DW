@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[Cars] (
+﻿CREATE TABLE [Project01].[Cars] (
     [Buying]  VARCHAR (5) NULL,
     [Maint]   VARCHAR (5) NULL,
     [Doors]   VARCHAR (5) NULL,
